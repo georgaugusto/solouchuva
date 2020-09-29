@@ -1,5 +1,3 @@
-**<p align="center">(Ainda em desenvolvimento - NÃO FINALIZADO)</p>**
-
 <p align="center">
   <img src="public/logoImg.svg" width="600px"/>
 </p>
@@ -29,7 +27,9 @@ Para ver a **api**, clique aqui: [SolouChuva Rest API](https://github.com/georga
 Para ver a **web client**, clique aqui: [SolouChuva Web](https://github.com/georgaugusto/solouchuva-frontend)</br>
 Para ver a **hardware**, clique aqui: [SolouChuva Hardware](https://github.com/georgaugusto/solouchuva-hardware)
 
-Para ver a **aplicação** rodando, clique aqui: [SolouChuva App](https://app.solouchuva.com.br/dashboard)
+Para ver a **aplicação** rodando, clique aqui: [SolouChuva App](https://app.solouchuva.com.br/dashboard) (Ainda em produção, **não finalizado**)
+
+> Obs.: Recuperação de senha e alteração de avatar não estão funcionais no [SolouChuva App](https://app.solouchuva.com.br/dashboard), devido a limitação de recursos para manter a aplicação online.
 
 ## Preview
 
