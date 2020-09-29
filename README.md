@@ -29,6 +29,8 @@ Para ver a **api**, clique aqui: [SolouChuva Rest API](https://github.com/georga
 Para ver a **web client**, clique aqui: [SolouChuva Web](https://github.com/georgaugusto/solouchuva-frontend)</br>
 Para ver a **hardware**, clique aqui: [SolouChuva Hardware](https://github.com/georgaugusto/solouchuva-hardware)
 
+Para ver a **aplicação** rodando, clique aqui: [SolouChuva App](https://app.solouchuva.com.br/dashboard)
+
 ## Preview
 
 ## Tecnologias
