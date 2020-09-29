@@ -25,6 +25,10 @@
   O protótipo supramencionado atua com foco no monitoramento meteorológico e é capaz de realizar previsões em tempo real, com mobilidade, e contemplando, ainda, a possibilidade   futura de que uma cultura desenvolva algum tipo de doença e a estimativa de produção e de crescimento por meio de deduções, a partir de dados, ações ou informações previamente   apresentadas, auxiliando, assim, a tomada de decisão do usuário.
 </p>
 
+Para ver a **api**, clique aqui: [SolouChuva Rest API](https://github.com/georgaugusto/solouchuva-backend)</br>
+Para ver a **web client**, clique aqui: [SolouChuva Web](https://github.com/georgaugusto/solouchuva-frontend)</br>
+Para ver a **hardware**, clique aqui: [SolouChuva Hardware](https://github.com/georgaugusto/solouchuva-hardware)
+
 ## Preview
 
 ## Tecnologias
@@ -40,6 +44,7 @@
 - [Firebase Realtime](https://firebase.google.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Date-fns](https://date-fns.org/)
+- [Babel](https://babeljs.io/)
 - [Jest](https://jestjs.io/)
 - [SuperTest](https://github.com/visionmedia/supertest)
 
@@ -71,7 +76,6 @@ Pensando em Usabilidade e UX Design foi feito um protótipo da Dashboard utiliza
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) ou [npm](https://www.npmjs.com/)
-- Uma instância de [PostgreSQL](https://www.postgresql.org/)
 - Um projeto no [Firebase](https://console.firebase.google.com/)
 
 > Obs.: Recomendo o uso do docker pela facilidade
@@ -79,7 +83,7 @@ Pensando em Usabilidade e UX Design foi feito um protótipo da Dashboard utiliza
 **Clone o projeto e acesse a pasta**
 
 ```bash
-$ git clone https://github.com/georgaugusto/iot-monitoramento-meteorologico.git && cd frontend
+$ git clone https://github.com/georgaugusto/solouchuva-backend.git && cd solouchuva-backend
 ```
 
 **Siga os passos abaixo**
@@ -116,16 +120,18 @@ $ yarn typeorm migration:run
 $ yarn dev:server
 ```
 
+Importe o arquivo `Insomnia.json` no aplicativo Insomnia, para facilitar o teste da api
+
 ## Front-End
 
 **Requisitos**
 
 - Ter o Back-End em execução
 
-**Acesse a pasta**
+**Clone o projeto e acesse a pasta**
 
 ```bash
-$ cd frontend
+$ git clone https://github.com/georgaugusto/solouchuva-frontend.git && cd solouchuva-frontend
 ```
 
 **Siga os passos abaixo**
@@ -143,6 +149,7 @@ $ yarn start
 
 **Requisitos**
 
+- [IDE do Arduino](https://www.arduino.cc/)
 - Ter os componentes abaixo
 
 **Componentes:**
@@ -179,10 +186,12 @@ A figura abaixo ilustra a montagem em na protoboard dos componentes.
 
 ![picture](public/iot-monitoramento-meteorologico_fzz.png)
 
-**Acesse a pasta**
+**Clone o projeto e acesse a pasta**
 
 ```bash
-$ cd hardware
+$ git clone https://github.com/georgaugusto/solouchuva-hardware.git && cd solouchuva-hardware
+
+# Caso precise instalar alguma biblioteca acesse a pasta 'libraries'
 
 # Defina a rede Wi-fi e as variáveis do Firebase no arquivo 'iot-monitoramento-meteorologico.ino'
 
