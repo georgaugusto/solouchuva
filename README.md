@@ -120,7 +120,7 @@ $ yarn typeorm migration:run
 $ yarn dev:server
 ```
 
-Importe o arquivo `Insomnia.json` no aplicativo Insomnia, para facilitar o teste da api
+> Obs.: Importe o arquivo `Insomnia.json` no aplicativo Insomnia, para facilitar o teste da api
 
 ## Front-End
 
