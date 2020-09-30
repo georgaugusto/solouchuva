@@ -74,6 +74,8 @@ Pensando em Usabilidade e UX Design foi feito um protótipo da Dashboard utiliza
 
 ## Back-End
 
+Para ver a **api**, clique aqui: [SolouChuva Rest API](https://github.com/georgaugusto/solouchuva-backend)
+
 **Requisitos**
 
 - [Node.js](https://nodejs.org/en/)
@@ -126,6 +128,8 @@ $ yarn dev:server
 
 ## Front-End
 
+Para ver a **web client**, clique aqui: [SolouChuva Web](https://github.com/georgaugusto/solouchuva-frontend)
+
 **Requisitos**
 
 - Ter o Back-End em execução
@@ -148,6 +152,8 @@ $ yarn start
 ```
 
 ## Hardware
+
+Para ver a **hardware**, clique aqui: [SolouChuva Hardware](https://github.com/georgaugusto/solouchuva-hardware)
 
 **Requisitos**
 
@@ -209,14 +215,21 @@ $ git clone https://github.com/georgaugusto/solouchuva-hardware.git && cd solouc
 ```bash
 # Fork usando a linha de comando oficial do GitHub, caso você não tenha a CLI do GitHub, use o site para fazer isso.
 
-$ gh repo fork georgaugusto/iot-monitoramento-meteorologico
+# Fork backend.
+$ gh repo fork georgaugusto/solouchuva-backend
+
+# Fork frontend.
+$ gh repo fork georgaugusto/solouchuva-frontend
+
+# Fork hardware.
+$ gh repo fork georgaugusto/solouchuva-hardware
 ```
 
 **Siga os passos abaixo**
 
 ```bash
 # Clone sua fork
-$ git clone your-fork-url && cd iot-monitoramento-meteorologico
+$ git clone your-fork-url && cd sua fork
 
 # Crie uma branch com suas alterações
 $ git checkout -b my-feature
